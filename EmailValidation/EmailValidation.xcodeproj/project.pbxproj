@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFF5D721202EBD9B00389B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5D720202EBD9B00389B49 /* AppDelegate.swift */; };
+		AFF5D723202EBD9B00389B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5D722202EBD9B00389B49 /* ViewController.swift */; };
+		AFF5D726202EBD9B00389B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF5D724202EBD9B00389B49 /* Main.storyboard */; };
+		AFF5D729202EBD9B00389B49 /* EmailValidation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFF5D727202EBD9B00389B49 /* EmailValidation.xcdatamodeld */; };
+		AFF5D72B202EBD9B00389B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF5D72A202EBD9B00389B49 /* Assets.xcassets */; };
+		AFF5D72E202EBD9B00389B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF5D72C202EBD9B00389B49 /* LaunchScreen.storyboard */; };
+		AFF5D739202EBD9B00389B49 /* LoginValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5D738202EBD9B00389B49 /* LoginValidationTests.swift */; };
+		AFF5D752202ECD8D00389B49 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5D751202ECD8D00389B49 /* LoginValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFF5D735202EBD9B00389B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF5D715202EBD9B00389B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFF5D71C202EBD9B00389B49;
+			remoteInfo = EmailValidation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFF5D71D202EBD9B00389B49 /* EmailValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF5D720202EBD9B00389B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFF5D722202EBD9B00389B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFF5D725202EBD9B00389B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF5D728202EBD9B00389B49 /* EmailValidation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmailValidation.xcdatamodel; sourceTree = "<group>"; };
+		AFF5D72A202EBD9B00389B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF5D72D202EBD9B00389B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF5D72F202EBD9B00389B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF5D734202EBD9B00389B49 /* EmailValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF5D738202EBD9B00389B49 /* LoginValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidationTests.swift; sourceTree = "<group>"; };
+		AFF5D73A202EBD9B00389B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF5D751202ECD8D00389B49 /* LoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF5D71A202EBD9B00389B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF5D731202EBD9B00389B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF5D714202EBD9B00389B49 = {
+			isa = PBXGroup;
+			children = (
+				AFF5D71F202EBD9B00389B49 /* EmailValidation */,
+				AFF5D737202EBD9B00389B49 /* EmailValidationTests */,
+				AFF5D71E202EBD9B00389B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF5D71E202EBD9B00389B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5D71D202EBD9B00389B49 /* EmailValidation.app */,
+				AFF5D734202EBD9B00389B49 /* EmailValidationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF5D71F202EBD9B00389B49 /* EmailValidation */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5D755202ED28700389B49 /* Utils */,
+				AFF5D754202ED27E00389B49 /* Presentation */,
+				AFF5D753202ED27500389B49 /* Application */,
+				AFF5D724202EBD9B00389B49 /* Main.storyboard */,
+				AFF5D72A202EBD9B00389B49 /* Assets.xcassets */,
+				AFF5D72C202EBD9B00389B49 /* LaunchScreen.storyboard */,
+				AFF5D72F202EBD9B00389B49 /* Info.plist */,
+				AFF5D727202EBD9B00389B49 /* EmailValidation.xcdatamodeld */,
+			);
+			path = EmailValidation;
+			sourceTree = "<group>";
+		};
+		AFF5D737202EBD9B00389B49 /* EmailValidationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5D738202EBD9B00389B49 /* LoginValidationTests.swift */,
+				AFF5D73A202EBD9B00389B49 /* Info.plist */,
+			);
+			path = EmailValidationTests;
+			sourceTree = "<group>";
+		};
+		AFF5D753202ED27500389B49 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5D720202EBD9B00389B49 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AFF5D754202ED27E00389B49 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5D722202EBD9B00389B49 /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AFF5D755202ED28700389B49 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5D751202ECD8D00389B49 /* LoginValidator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF5D71C202EBD9B00389B49 /* EmailValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF5D748202EBD9B00389B49 /* Build configuration list for PBXNativeTarget "EmailValidation" */;
+			buildPhases = (
+				AFF5D719202EBD9B00389B49 /* Sources */,
+				AFF5D71A202EBD9B00389B49 /* Frameworks */,
+				AFF5D71B202EBD9B00389B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailValidation;
+			productName = EmailValidation;
+			productReference = AFF5D71D202EBD9B00389B49 /* EmailValidation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFF5D733202EBD9B00389B49 /* EmailValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF5D74B202EBD9B00389B49 /* Build configuration list for PBXNativeTarget "EmailValidationTests" */;
+			buildPhases = (
+				AFF5D730202EBD9B00389B49 /* Sources */,
+				AFF5D731202EBD9B00389B49 /* Frameworks */,
+				AFF5D732202EBD9B00389B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF5D736202EBD9B00389B49 /* PBXTargetDependency */,
+			);
+			name = EmailValidationTests;
+			productName = EmailValidationTests;
+			productReference = AFF5D734202EBD9B00389B49 /* EmailValidationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF5D715202EBD9B00389B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andrew Chupin";
+				TargetAttributes = {
+					AFF5D71C202EBD9B00389B49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AFF5D733202EBD9B00389B49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFF5D71C202EBD9B00389B49;
+					};
+				};
+			};
+			buildConfigurationList = AFF5D718202EBD9B00389B49 /* Build configuration list for PBXProject "EmailValidation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF5D714202EBD9B00389B49;
+			productRefGroup = AFF5D71E202EBD9B00389B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF5D71C202EBD9B00389B49 /* EmailValidation */,
+				AFF5D733202EBD9B00389B49 /* EmailValidationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF5D71B202EBD9B00389B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF5D72E202EBD9B00389B49 /* LaunchScreen.storyboard in Resources */,
+				AFF5D72B202EBD9B00389B49 /* Assets.xcassets in Resources */,
+				AFF5D726202EBD9B00389B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF5D732202EBD9B00389B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF5D719202EBD9B00389B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF5D723202EBD9B00389B49 /* ViewController.swift in Sources */,
+				AFF5D721202EBD9B00389B49 /* AppDelegate.swift in Sources */,
+				AFF5D752202ECD8D00389B49 /* LoginValidator.swift in Sources */,
+				AFF5D729202EBD9B00389B49 /* EmailValidation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF5D730202EBD9B00389B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF5D739202EBD9B00389B49 /* LoginValidationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFF5D736202EBD9B00389B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFF5D71C202EBD9B00389B49 /* EmailValidation */;
+			targetProxy = AFF5D735202EBD9B00389B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFF5D724202EBD9B00389B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF5D725202EBD9B00389B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF5D72C202EBD9B00389B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF5D72D202EBD9B00389B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF5D746202EBD9B00389B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF5D747202EBD9B00389B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF5D749202EBD9B00389B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4KTC5YWND;
+				INFOPLIST_FILE = EmailValidation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santa.azume.EmailValidation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF5D74A202EBD9B00389B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4KTC5YWND;
+				INFOPLIST_FILE = EmailValidation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santa.azume.EmailValidation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFF5D74C202EBD9B00389B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4KTC5YWND;
+				INFOPLIST_FILE = EmailValidationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santa.azume.EmailValidationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmailValidation.app/EmailValidation";
+			};
+			name = Debug;
+		};
+		AFF5D74D202EBD9B00389B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4KTC5YWND;
+				INFOPLIST_FILE = EmailValidationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santa.azume.EmailValidationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmailValidation.app/EmailValidation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF5D718202EBD9B00389B49 /* Build configuration list for PBXProject "EmailValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF5D746202EBD9B00389B49 /* Debug */,
+				AFF5D747202EBD9B00389B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF5D748202EBD9B00389B49 /* Build configuration list for PBXNativeTarget "EmailValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF5D749202EBD9B00389B49 /* Debug */,
+				AFF5D74A202EBD9B00389B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF5D74B202EBD9B00389B49 /* Build configuration list for PBXNativeTarget "EmailValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF5D74C202EBD9B00389B49 /* Debug */,
+				AFF5D74D202EBD9B00389B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFF5D727202EBD9B00389B49 /* EmailValidation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFF5D728202EBD9B00389B49 /* EmailValidation.xcdatamodel */,
+			);
+			currentVersion = AFF5D728202EBD9B00389B49 /* EmailValidation.xcdatamodel */;
+			path = EmailValidation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFF5D715202EBD9B00389B49 /* Project object */;
+}
